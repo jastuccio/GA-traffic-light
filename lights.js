@@ -8,7 +8,7 @@ function illuminateRed() {
 
 function illuminateYellow() {
   clearLights();
-  document.getElementById('slowLight').style.backgroundColor = "purple";
+  document.getElementById('slowLight').style.backgroundColor = "yellow";
 }
 
 function clearLights() {
