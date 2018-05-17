@@ -1,5 +1,7 @@
 document.getElementById('stopButton').onclick = illuminateRed;
 document.getElementById('slowButton').onclick = illuminateYellow;
+document.getElementById('goButton').onclick = illuminateGreen;
+
 
 function illuminateRed() {
   clearLights();
@@ -9,6 +11,11 @@ function illuminateRed() {
 function illuminateYellow() {
   clearLights();
   document.getElementById('slowLight').style.backgroundColor = "yellow";
+}
+
+function illuminateGreen() {
+  clearLights();
+  document.getElementById('goLight').style.backgroundColor = "green";
 }
 
 function clearLights() {
