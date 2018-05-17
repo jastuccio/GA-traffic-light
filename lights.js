@@ -1,16 +1,6 @@
-function illuminateRed() {
+illuminate = (light, color) => {
   clearLights();
-  document.getElementById('stopLight').style.backgroundColor = "red";
-}
-
-function illuminateYellow() {
-  clearLights();
-  document.getElementById('slowLight').style.backgroundColor = "yellow";
-}
-
-function illuminateGreen() {
-  clearLights();
-  document.getElementById('goLight').style.backgroundColor = "green";
+  document.getElementById(light).style.backgroundColor = color;
 }
 
 function clearLights() {
